@@ -29,6 +29,7 @@ body{
     --title-gradient-grey: #9eadb9;
     --gray-text: #8d92a4;
     --navy-blue-gradient: #181929;
+    --royal-purple:#6a0dada1;
 }
 .bg-black-primary{
     background-color: var(--primary-black) !important;
@@ -157,8 +158,8 @@ body{
 /* Navbar */
 .navbar{
     border:1px solid var(--all-border) !important;
-    background-color: var(--secondary-black);
-    background: linear-gradient(180deg,#1819294d,var(--primary-black));
+    /* background-color: var(--royal-purple); */
+    background: linear-gradient(180deg, #7700cc73 35%, #a939f69c);
     backdrop-filter: blur(5px) !important;
     border-radius: 10px;
 }
@@ -168,7 +169,7 @@ body{
     }
 }
 .logo{
-    max-width: 150px;
+    max-width: 75px;
 
     @media only screen and (max-width: 600px) {
         height: 38px;
@@ -192,7 +193,7 @@ body{
     padding: 13px 17px;
     border-radius: 12px;
     font-weight: 500;
-    background-image: linear-gradient(180deg, #98a3ff33 3%, var(--primary-blue) 80%);
+    background-image: linear-gradient(180deg, #db9914 3%, #dc3545 80%);
     position: relative;
 
     &::after{
@@ -207,7 +208,7 @@ body{
         transition: .2s all ease-in-out;
     }
     &:hover::after{
-        border: 5px solid #1C2C7E !important;
+        border: 4px solid var(--royal-purple) !important;
     }
     &:hover{
         border: none !important;
@@ -218,7 +219,7 @@ body{
     }
 }
 
-
+ 
 
 /* First Sectiob */
 .web_title{
@@ -1179,7 +1180,7 @@ body{
     border-radius: 20px;
     padding: 40px 5px;
    background-color: var(--primary-black);
-    background-image: radial-gradient(circle farthest-corner at 50% 0%, #2f4697 8%, #0e0e0f 54%, var(--primary-black) 103%);
+    background-image: radial-gradient(circle farthest-corner at 50% 0%, #431f6e 8%, #0e0e0f 54%, var(--primary-black) 103%);
 }
 .services_cards .items_image{
     width: 60px;
@@ -1223,7 +1224,7 @@ body{
 .card_content{
     position: absolute;
     width: 100%;
-    padding: 100px 15px 10px 15px;
+    padding:100px 6px 5px 6px;
     z-index: 3;
     bottom: 0;
 }
@@ -1233,7 +1234,8 @@ body{
 .like_view{
     border: .5px solid var(--all-border);
     display: inline-block;
-    padding: 5px 18px;
+    padding: 5px 8px;
+    text-align: center;
     font-size: 13px;
     background-color: var(--light-grey);
     backdrop-filter: blur(25px);
