@@ -69,7 +69,6 @@ IsotopeBtn.forEach((event)=>{
   event.addEventListener('click',()=>{ 
     if(event.value == "youtube"){
       showYoutube();
-
       hideShort();
       hideSaas();
       hideCreative();
