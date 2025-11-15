@@ -30,6 +30,7 @@ body{
     font-family: 'poppins';
     color: var(--white);
     background-color: var(--primary-black); 
+    overflow-x: hidden;
 }
 
 
@@ -745,11 +746,11 @@ body{
 }
 
 .process_item_card.two img:nth-child(3){
-    animation: spin 10s linear reverse infinite;
+    animation: spin 30s linear reverse infinite;
 }
 
 .process_item_card.two img:nth-child(4){
-    animation: spin 10s linear reverse infinite;
+    animation: spin 20s linear reverse infinite;
 }
 
 .process_item_card.two img:nth-child(5){
